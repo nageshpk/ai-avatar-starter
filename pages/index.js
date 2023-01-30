@@ -124,7 +124,7 @@ const Home = () => {
             <h1>Generate my alter !!</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Turn me into anyone you want! Make sure you refer to me as "nageshkale" in the prompt</h2>
+            <h2>Turn me into anyone you want! Make sure you refer to me as "nagesh" in the prompt</h2>
           </div>
           <div className="prompt-container">
             <input className="prompt-box" value={input} onChange={onChange}></input>
