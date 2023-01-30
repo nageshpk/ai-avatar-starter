@@ -121,7 +121,7 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Generate my alter !!</h1>
+            <h1>Generate my Twin !!</h1>
           </div>
           <div className="header-subtitle">
             <h2>Turn me into anyone you want! Make sure you refer to me as "nagesh" in the prompt</h2>
