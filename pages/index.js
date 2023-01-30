@@ -127,7 +127,7 @@ const Home = () => {
             <h2>Turn me into anyone you want! Make sure you refer to me as "nagesh" in the prompt</h2>
           </div>
           <div className="prompt-container">
-            <input className="prompt-box" value={input} onChange={onChange}></input>
+            <input className="prompt-box" value={input} onChange={onChange} placeholder='Enter prompt as "Oil painting of nagesh as God of War character, highly detailed, 4K"'></input>
             <div className='prompt-buttons'>
               <a 
                 className={
@@ -138,7 +138,7 @@ const Home = () => {
                   {isGenerating ? (
                     <span className='loader'></span>
                   ) : (
-                  <p>Generate</p>
+                  <p>Create</p>
                   )}
                 </div>
               </a>
